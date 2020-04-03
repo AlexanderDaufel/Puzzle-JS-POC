@@ -1,0 +1,41 @@
+{
+  "name": "browsing-gateway",
+  "port": 4445,
+  "url": "http://localhost:4445/",
+  "fragments": [
+    {
+      "name": "header",
+      "testCookie": "header_test",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "assets": [],
+          "dependencies": []
+        }
+      },
+      "render": {
+        "placeholder": true,
+        "url": ["/"],
+        "middlewares": []
+      }
+    },
+    {
+      "name": "navbar",
+      "testCookie": "navbar_test",
+      "version": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "assets": [],
+          "dependencies": []
+        }
+      },
+      "render": {
+        "placeholder": true,
+        "url": ["/"],
+        "middlewares": []
+      }
+    }
+  ],
+  "api": [],
+  "fragmentsFolder": "./src/fragments"
+}
